@@ -182,3 +182,34 @@ console.log(testcases);
 console.log("------------------");
 
 
+interface teststep{
+    stepnumber:number;
+    descrption:string;
+    result:"passed"|"failed";
+}
+let step1:teststep={
+    stepnumber:1,
+    descrption:"login",
+    result:"passed"};
+
+let step2:teststep={
+    stepnumber:2,
+    descrption:"add to cart",
+    result:"failed"};       
+
+let step3:teststep={
+    stepnumber:3,
+    descrption:"checkout",
+    result:"passed"};
+
+let teststeps:teststep[]=[step1,step2,step3];
+
+for(let step of teststeps){
+    if(step.result==="failed"){
+        step.result="passed";
+    }
+
+
+    console.log(teststeps);
+}
+console.log("------------------");
