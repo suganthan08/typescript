@@ -27,5 +27,13 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suganthan08/typescript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/suganthan08/typescript/issues"
+  },
+  "homepage": "https://github.com/suganthan08/typescript#readme"
 }
